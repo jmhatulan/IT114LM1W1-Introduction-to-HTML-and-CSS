@@ -33,7 +33,7 @@
         <!-- DONE 2.6: Add a year level dropdown. The inital selected value must be "Select an option", but it must not be a valid selection. -->
         
         <label for="yearLevel">Year Level:</label><br />
-        <select name="yearLevel" id="" required>
+        <select name="yearLevel" id="yearLevel" required>
             <option value="" selected disabled>Select an option</option>
             <option value="1">1st Year</option>
             <option value="2">2nd Year</option>
@@ -44,19 +44,19 @@
         <!-- DONE 2.7: Add radio buttons that ask which learning mode the user prefers -->
         
         <label for="learningMode">Which learning mode do you prefer?</label><br />
-        <input type="radio" name="learningMode" id="online" />
-        <label for="learningMode">Online</label><br />
-        <input type="radio" name="learningMode" id="faceToFace" />
-        <label for="learningMode">Face to Face</label><br />
+        <input type="radio" name="learningMode" id="online" value="Online"/>
+        <label for="online">Online</label><br />
+        <input type="radio" name="learningMode" id="faceToFace" value="Face to Face"/>
+        <label for="faceToFace">Face to Face</label><br />
         
         <!-- DONE 2.8: Add check boxes that ask which subjects the user has taken -->
         
         <label for="subjectsTaken">Which subjects have you taken?</label><br />
-        <input type="checkbox" name="subjectsTaken" id="IT100" />
+        <input type="checkbox" name="subjectsTaken" id="IT100" value="IT100"/>
         <label for="subjectsTaken">IT100</label><br />
-        <input type="checkbox" name="subjectsTaken" id="IT101" />
+        <input type="checkbox" name="subjectsTaken" id="IT101" value="IT101"/>
         <label for="subjectsTaken">IT101</label><br />
-        <input type="checkbox" name="subjectsTaken" id="IT114" />
+        <input type="checkbox" name="subjectsTaken" id="IT114" value="IT114"/>
         <label for="subjectsTaken">IT114</label><br />
 
         <!-- DONE 2.9: Add a text area that asks the user if they would prefer to be a cactus or a shark -->
